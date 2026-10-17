@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+.venv-clean/
+venv/
+env/
+
+# Model files and downloaded weights
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Recordings and temporary audio
+recordings/
+*.wav
+*.mp3
+*.mp4
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.log
